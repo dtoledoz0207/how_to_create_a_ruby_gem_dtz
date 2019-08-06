@@ -6,6 +6,8 @@ This document describes how to create a Ruby Gem with Bundler, an easy way to st
 Firstly open your terminal and run this command:
     $ gem install bundler
 Then run the next command to check the bundle version:
+
     $ bundle -v
     Bundler version 1.17.2
+    
 If you can see the bundle version that mean that bundle has been installed successfully
