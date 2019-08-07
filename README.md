@@ -61,3 +61,7 @@ Now we are going to run our `spec` file. First we need to be in the root of our 
 That will show us if the tests are correct or failed. For this example, our gem just passed a test, the second one was wrong because expect a false value and the response was true.
 
 Now we know where we have to write our rspec tests and how to run our spec file. The next step is to know where we have to write our principal code for the gem.
+
+## Principal code
+All the functionality of our gem is going to be in the `/lib` folder. In this folder we can create all the classes, modules and object, etc. That we need to pass our rspec tests successfully.
+When the tests are correct then we are ready to build our gem.
