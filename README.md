@@ -47,3 +47,17 @@ spec.homepage = "you can put your GitHub repository url here"
 ```
 
 And finally we are going to comment the metadata condition or delete it.
+
+## RSPEC
+After that we are ready to do our first rspec test.
+
+The tests file is in the `spec` folder. We need to write our rspec tests in the spec file that looks like this: `name_of_my_gem_spec.rb`
+
+In the begin this file has only two test, the first is to check if the version is not nil and the second it’s only an example that it’s going to show us an error.
+Now we are going to run our `spec` file. First we need to be in the root of our gem, then we need to type the next command in the terminal:
+
+    $ bundle exec rspec spec/name_of_my_gem_spec.rb
+
+That will show us if the tests are correct or failed. For this example, our gem just passed a test, the second one was wrong because expect a false value and the response was true.
+
+Now we know where we have to write our rspec tests and how to run our spec file. The next step is to know where we have to write our principal code for the gem.
