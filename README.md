@@ -65,3 +65,19 @@ Now we know where we have to write our rspec tests and how to run our spec file.
 ## Principal code
 All the functionality of our gem is going to be in the `/lib` folder. In this folder we can create all the classes, modules and object, etc. That we need to pass our rspec tests successfully.
 When the tests are correct then we are ready to build our gem.
+
+## Finally
+To build our gem we need to type the next command in the terminal:
+
+    $ gem build name_of_my_gem.gemspec
+
+This command it’s going to create a new file named `name_of_my_gem-0.1.0.gem` for example.
+After that we can install our gem with the next command and use it in our ruby projects
+
+    $ gem install name_of_my_gem-0-1-0.gem
+
+And finally, you can upload your gem in the rubygems repository and contribute to the ruby community:
+
+    $ gem push name_of_my_gem-0.1.0.gem
+
+
